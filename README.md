@@ -35,3 +35,7 @@ Lock is done on Object, not on method.
 Every object has Syn and non-Syn Area. Syn are is for writing operations so only one thread can access it, but for non-sync, any no of
 threads can use it.while writing program Syn area whould be always thread safer, where state of object is changing.
 
+
+not occuring at same time, its asynchronous. Bidding is example of async. one by one with time difference.
+
+so we must know the nature of method to implement it syn or asyn.
